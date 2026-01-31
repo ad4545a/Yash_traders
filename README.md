@@ -1,59 +1,93 @@
-# P.K. & Sons Jewellery
+<div align="center">
 
-**Version:** 1.0.1
+<!-- Animated Header -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F7D154&center=true&vCenter=true&width=500&lines=Yash+Traders;Live+Bullion+Rates;Premium+Gold+%26+Silver;Trusted+Jewellery+Store" alt="Typing SVG" />
 
-The official mobile application for **P.K. & Sons Jewellery Store**, responding to the needs of modern customers with a premium digital experience. This app provides live updates on gold and silver rates and showcases our exclusive jewellery collections.
+<!-- Logo Placeholder (Optional) -->
+<!-- <img src="assets/images/app_logo.png" height="150" /> -->
 
-## ✨ Features
+<br>
 
-*   **Live Gold & Silver Rates**: Real-time updates for market rates, ensuring transparency for customers.
-*   **Premium Rate Card**: beautifully designed informative cards displaying current buying/selling rates.
-*   **Dynamic UI**: A premium user interface that supports both Light and Dark modes.
-*   **Firebase Integration**: Powered by Firebase Realtime Database for instant data updates.
+<!-- Badges -->
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-## 🛠 Tech Stack
+</div>
 
-*   **Framework**: Flutter (Dart)
-*   **Backend**: Firebase (Realtime Database)
-*   **State Management**: Native (setState / InheritedWidget - *if applicable based on code viewed*) / StreamBuilders
+<br>
+
+## 📱 About The App
+
+**Yash Traders** is the official mobile application for P.K. & Sons Jewellery, designed to provide a premium digital experience for our customers. We bring the bullion market to your fingertips with real-time updates, transparency, and elegance.
+
+This app serves as a direct bridge between our store and our valued clients, offering live MCX rates, calculated premiums, and instant notifications.
+
+<br>
+
+## ✨ Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| **🔴 Live Market Status** | Real-time "Live" / "Market Closed" indicators with weekend detection. |
+| **📈 Real-Time Rates** | Instant updates for Gold (99.50, 99.9) and Silver contracts. |
+| **🧮 Smart Premiums** | Automatic calculation of premiums with color-coded positive/negative indicators. |
+| **🌓 Dark Mode** | A stunning, battery-friendly Dark Mode for night-time usage. |
+| **⚡ Firebase BLoC** | Powered by Firebase Realtime Database for millisecond-latency updates. |
+
+<br>
+
+## 🛠️ Technology Stack
+
+-   **Frontend**: Flutter (Dart)
+-   **Backend**: Firebase Realtime Database
+-   **Architecture**: MVC / Provider
+-   **State Management**: StreamBuilder & Native State
+-   **Target Platform**: Android (AAB/APK)
+
+<br>
 
 ## 🚀 Getting Started
 
-To build and run this project locally, you'll need the Flutter SDK installed.
-
 ### Prerequisites
-
-*   Flutter SDK
-*   Dart SDK
-*   Android Studio / VS Code
+-   Flutter SDK installed.
+-   Android Studio or VS Code.
+-   Java 17 (recommended for Gradle).
 
 ### Installation
 
-1.  **Clone the repository:**
+1.  **Clone the Repo**
     ```bash
-    git clone https://github.com/ad4545a/P.K.-Son-s_main_app.git
-    cd pk_sons_jewellery
+    git clone https://github.com/ad4545a/Yash_traders.git
+    cd Yash_Traders
     ```
 
-2.  **Install Dependencies:**
+2.  **Install Dependencies**
     ```bash
     flutter pub get
     ```
 
-3.  **Firebase Configuration:**
-    *   This project uses Firebase. You must provide your own `google-services.json` (for Android) and `GoogleService-Info.plist` (for iOS).
-    *   Place `google-services.json` in `android/app/`.
-    *   Place `GoogleService-Info.plist` in `ios/Runner/`.
+3.  **Setup Firebase**
+    -   Add your `google-services.json` to `android/app/`.
 
-4.  **Run the App:**
+4.  **Run the App**
     ```bash
     flutter run
     ```
 
-## 📦 Version History
+<br>
 
-*   **v1.0.1**: Maintenance update (Current).
-*   **v1.0.0**: Initial Release.
+## 📸 Screenshots
+
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| *(Add Screenshot)* | *(Add Screenshot)* |
+
+<br>
 
 ---
-Developed for P.K. & Sons Jewellery.
+<div align="center">
+  <sub>Built with ❤️ by AV Digital Lab for P.K. & Sons</sub>
+</div>
